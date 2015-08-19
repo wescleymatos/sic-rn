@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/timeline.css"  media="screen,projection"/>
+    </head>
+
+    <body>
+
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="side-nav" id="nav-mobile">
+                        <li><a href="#">Informações</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col s12">
+                <section id="steps" class="steps-section">
+                    <div class="steps-timeline">
+                        <div class="steps-one">
+                            <img class="steps-img" src="assets/images/checked.png" alt="" />
+                            <h4 class="steps-name">Recebido</h4>
+                        </div>
+                        <div class="steps-two">
+                            <img class="steps-img" src="assets/images/checked.png" alt="" />
+                            <h4 class="steps-name">Processando</h4>
+                        </div>
+                        <div class="steps-three">
+                            <img class="steps-img" src="assets/images/nchecked.png" alt="" />
+                            <h4 class="steps-name">Finalizado</h4>
+                        </div>
+                    </div><!-- /.steps-timeline -->
+                </section>
+            </div>
+        </div>
+
+
+
+
+        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+            <a href="#" class="btn-floating btn-large waves-effect waves-light green">
+                <i class="material-icons">settings</i>
+            </a>
+            <ul>
+                <li><a href="pessoas.html" class="btn-floating red"><i class="material-icons">add</i></i></a></li>
+                <li><a href="index.html" class="btn-floating blue"><i class="material-icons">search</i></a></li>
+            </ul>
+        </div>
+
+        <!--Import jQuery before materialize.js-->
+        <script src="assets/js/vendors/jquery.min.js"></script>
+        <script src="assets/js/vendors/underscore-min.js"></script>
+        <script src="assets/js/vendors/backbone-min.js"></script>
+        <script src="assets/js/vendors/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(".button-collapse").sideNav();
+        </script>
+    </body>
+</html>

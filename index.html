@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    </head>
+
+    <body>
+
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="side-nav" id="nav-mobile">
+                        <li><a href="#">Informações</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <br>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="protocolo" type="number" required="required" class="validate">
+                        <label for="protocolo">Protocolo</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+
+                          <button class="btn-large col s12 waves-effect waves-light" type="submit" name="action">Enviar
+                            <i class="material-icons"></i>
+                          </button>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+            <a href="#" class="btn-floating btn-large waves-effect waves-light green">
+                <i class="material-icons">settings</i>
+            </a>
+            <ul>
+                <li><a href="pessoas.html" class="btn-floating red"><i class="material-icons">add</i></i></a></li>
+                <li><a href="index.html" class="btn-floating blue"><i class="material-icons">search</i></a></li>
+            </ul>
+        </div>
+
+        <!--Import jQuery before materialize.js-->
+        <script src="assets/js/vendors/jquery.min.js"></script>
+        <script src="assets/js/vendors/underscore-min.js"></script>
+        <script src="assets/js/vendors/backbone-min.js"></script>
+        <script src="assets/js/vendors/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(".button-collapse").sideNav();
+        </script>
+    </body>
+</html>
+

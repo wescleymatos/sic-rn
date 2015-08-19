@@ -1,0 +1,25 @@
+{
+  "name": "Sistema Integrado de Informações ao Cidadão",
+  "version": "0.0.1",
+  "description": "App mobile to RN Government",
+  "keywords": [
+    "cep"
+  ],
+  "authors": [
+    "Wescley Matos"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.1",
+    "jquery": "~2.1.4",
+    "materialize": "~0.97.0",
+    "webcomponentsjs": "~0.7.11"
+  }
+}
