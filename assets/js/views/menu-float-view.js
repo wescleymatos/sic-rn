@@ -3,26 +3,21 @@ var MenuFloatView = React.createClass({
         bottom: '45px',
         right: '24px'
     },
-    aClass: 'btn-floating btn-large waves-effect waves-light red',
-    addBtnClass: 'btn-floating green',
-    searchBtnClass: 'btn-floating blue',
-    divClass: 'fixed-action-btn',
-    iClass: 'material-icons',
     render: function() {
         return (
-            <div className={this.divClass} style={this.style}>
-                <a href="#" className={this.aClass}>
-                    <i className={this.iClass}>settings</i>
+            <div className='fixed-action-btn' style={this.style}>
+                <a href="#" className='btn-floating btn-large waves-effect waves-light red'>
+                    <i className='material-icons'>settings</i>
                 </a>
                 <ul>
                     <li>
-                        <a href="pessoas.html" className={this.addBtnClass}>
-                            <i className={this.iClass}>add</i>
+                        <a href="pessoas.html" className='btn-floating green'>
+                            <i className='material-icons'>add</i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html" className={this.searchBtnClass}>
-                            <i className={this.iClass}>search</i>
+                        <a href="index.html" className='btn-floating blue'>
+                            <i className='material-icons'>search</i>
                         </a>
                     </li>
                 </ul>
