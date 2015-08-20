@@ -7,6 +7,7 @@
         <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+        <title>SIC</title>
     </head>
 
     <body>
@@ -46,24 +47,26 @@
             </form>
         </div>
 
+        <div id="menu-float"></div>
 
-
-
-        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a href="#" class="btn-floating btn-large waves-effect waves-light green">
+        <!-- <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+            <a href="#" class="btn-floating btn-large waves-effect waves-light red">
                 <i class="material-icons">settings</i>
             </a>
             <ul>
-                <li><a href="pessoas.html" class="btn-floating red"><i class="material-icons">add</i></i></a></li>
+                <li><a href="pessoas.html" class="btn-floating green"><i class="material-icons">add</i></i></a></li>
                 <li><a href="index.html" class="btn-floating blue"><i class="material-icons">search</i></a></li>
             </ul>
-        </div>
+        </div> -->
 
         <!--Import jQuery before materialize.js-->
+        <script src="assets/js/vendors/react.js"></script>
+        <script src="assets/js/vendors/JSXTransformer.js"></script>
         <script src="assets/js/vendors/jquery.min.js"></script>
         <script src="assets/js/vendors/underscore-min.js"></script>
         <script src="assets/js/vendors/backbone-min.js"></script>
         <script src="assets/js/vendors/materialize.min.js"></script>
+        <script type="text/jsx" src="assets/js/views/menu-float-view.js"></script>
         <script type="text/javascript">
             $(".button-collapse").sideNav();
         </script>

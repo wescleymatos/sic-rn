@@ -20,6 +20,7 @@
     "backbone": "~1.2.1",
     "jquery": "~2.1.4",
     "materialize": "~0.97.0",
-    "webcomponentsjs": "~0.7.11"
+    "webcomponentsjs": "~0.7.11",
+    "react": "~0.13.3"
   }
 }
