@@ -22,11 +22,9 @@
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-
-                          <button class="btn-large col s12 waves-effect waves-light" type="submit" name="action">Enviar
+                        <button class="btn-large col s12 waves-effect waves-light" type="submit" name="action">Enviar
                             <i class="material-icons"></i>
-                          </button>
-
+                        </button>
                     </div>
                 </div>
             </form>
@@ -44,25 +42,33 @@
                 </div>
             </div>
         </script>
-        
+
+        <script type="text/template" id="template-info">
+            <div class="row">
+                <div class="col s12">
+                    <blockquote>
+                        O acesso a informação foi instituído pela Lei Federal nº 12.527. No Estado do Rio Grande do Norte a lei de acesso a informação foi implementada pelo serviço de informações ao cidadão e-Sic no qual é possível solicitar documentos e dados da administração pública do Rio Grande do Norte.
+                    </blockquote>
+                </div>
+            </div>
+        </script>
+
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">Logo</a>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse">
+                    <a class="brand-logo">Logo</a>
+                    <a data-activates="nav-mobile" class="button-collapse">
                         <i class="material-icons">menu</i>
                     </a>
                     <ul class="side-nav" id="nav-mobile">
-                        <li><a href="#">Informações</a></li>
+                        <li><a href="#info">Informações</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
 
         <br>
-        <div id="container" class="row">
-            
-        </div>
+        <div id="container" class="row"></div>
 
         <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
             <a href="#" class="btn-floating btn-large waves-effect waves-light green">
@@ -80,6 +86,9 @@
         <script src="assets/js/vendors/backbone-min.js"></script>
         <script src="assets/js/vendors/materialize.min.js"></script>
         <script src="assets/js/views/search-view.js"></script>
+        <script src="assets/js/views/info-view.js"></script>
+        <script src="assets/js/views/kind-people-view.js"></script>
+        <script src="assets/js/app.js"></script>
         <script type="text/javascript">
             $(".button-collapse").sideNav();
         </script>
