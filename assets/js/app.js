@@ -1,21 +1,9 @@
-var Router = Backbone.Router.extend({
-    routes: {
-        '': 'search',
-        'search': 'search',
-        'people': 'kindPeople',
-        'info': 'info'
-    },
-    search: function() {
-        new SearchView();
-    },
-    kindPeople: function() {
-        new KindPeopleView();
-    },
-    info: function() {
-        new InfoView();
-        $(window).click();
-    }
-});
+(function ($, Backbone, Router) {
 
-var router = new Router();
-Backbone.history.start();
+    $(".button-collapse").sideNav();
+
+    var router = new Router();
+    Backbone.history.start();
+
+}(jQuery, Backbone, Router));
+
