@@ -1,22 +1,22 @@
 {
-  "name": "SIC",
-  "version": "0.0.1",
-  "description": "Sistema Integrado de Informações ao Cidadão",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "bower": "^1.4.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "author": "Wescley Matos",
-  "license": "MIT"
+    "name": "SIC",
+    "version": "0.0.1",
+    "description": "Sistema Integrado de Informações ao Cidadão",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "bower": "^1.5.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "Wescley Matos",
+    "license": "MIT"
 }

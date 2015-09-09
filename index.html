@@ -16,13 +16,13 @@
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="protocolo" type="number" required="required" class="validate">
-                        <label for="protocolo">Protocolo</label>
+                        <input id="protocol" type="text" value="<%= user.name %>" required="required" class="validate">
+                        <label for="protocol">Protocolo</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <button class="btn-large col s12 waves-effect waves-light" type="submit" name="action">Enviar
+                        <button id="search-protocol" class="btn-large col s12 waves-effect waves-light" type="button" name="action">Enviar
                             <i class="material-icons"></i>
                         </button>
                     </div>
@@ -53,19 +53,21 @@
             </div>
         </script>
 
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper">
-                    <a class="brand-logo">Logo</a>
-                    <a data-activates="nav-mobile" class="button-collapse">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="side-nav" id="nav-mobile">
-                        <li><a href="#info">Informações</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-activates="menu" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="side-nav" id="menu">
+                    <li><a href="sass.html">teste 1</a></li>
+                    <li><a href="badges.html">teste 2</a></li>
+                    <li><a href="collapsible.html">teste 3</a></li>
+                    <li><a href="mobile.html">teste 4</a></li>
+                    <li><a href="#info">Informações</a></li>
+                </ul>
+            </div>
+        </nav>
 
         <br>
         <div id="container" class="row"></div>
@@ -85,6 +87,7 @@
         <script src="assets/js/vendors/underscore-min.js"></script>
         <script src="assets/js/vendors/backbone-min.js"></script>
         <script src="assets/js/vendors/materialize.min.js"></script>
+        <script type="application/javascript" src="assets/js/vendors/fastclick.js"></script>
         <script src="assets/js/views/search-view.js"></script>
         <script src="assets/js/views/info-view.js"></script>
         <script src="assets/js/views/kind-people-view.js"></script>

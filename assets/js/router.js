@@ -13,6 +13,6 @@ var Router = Backbone.Router.extend({
     },
     info: function() {
         new InfoView();
-        $(window).click();
+        $('.button-collapse').click();
     }
 });
